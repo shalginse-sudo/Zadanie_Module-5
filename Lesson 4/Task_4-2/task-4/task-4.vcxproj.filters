@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{170c00db-fa29-42ad-a50c-3630a5a09162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party">
+      <UniqueIdentifier>{c82f965e-e96c-43bc-a910-3af19867e706}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third-party\Catch2-devel\extras\catch_amalgamated.cpp">
+      <Filter>third-party</Filter>
+    </ClCompile>
+    <ClCompile Include="src\task-4-2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\third-party\Catch2-devel\extras\catch_amalgamated.hpp">
+      <Filter>third-party</Filter>
+    </ClInclude>
+    <ClInclude Include="src\List.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
